@@ -1,0 +1,30 @@
+{
+
+  "manifest_version": 2,
+  "name": "Youtube to Markdown",
+  "version": "0.1.0",
+
+  "description": "Copy YouTube video title and url in Markdown link format to system clipboard.",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+   
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "content_scripts": [
+    {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["content.js"]
+    }
+  ],
+
+  "permissions": [
+    "clipboardWrite",
+    "activeTab",
+    "contextMenus"
+  ]
+}
+
