@@ -3,7 +3,7 @@
   "manifest_version": 2,
   "name": "Youtube to Markdown",
   "version": "0.1.0",
-
+  "author": "Kirthihan Yasotharan",
   "description": "Copy YouTube video title and url in Markdown link format to system clipboard.",
 
   "icons": {
