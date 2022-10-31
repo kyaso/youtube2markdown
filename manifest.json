@@ -7,7 +7,7 @@
   "description": "Copy YouTube video title and url in Markdown link format to system clipboard.",
 
   "icons": {
-    "48": "icons/border-48.png"
+    "48": "icons/icon.png"
   },
    
   "background": {
